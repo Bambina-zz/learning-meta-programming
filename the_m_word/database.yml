@@ -1,0 +1,3 @@
+dev:
+  adapter: postgresql
+  database: meta_programming
