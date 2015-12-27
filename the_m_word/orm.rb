@@ -1,3 +1,11 @@
+# MEMO (how to create user/db/table in postgresql from terminal)
+# $ createuser --help #=> see options
+# $ createdb --help   #=> see options
+# $ pg_ctl start -D /usr/local/var/postgres
+# $ psql -U user_name -d db_name
+# db_name=> CREATE TABLE movies(id int PRIMARY KEY NOT NULL, title varchar(40));
+# db_name=> \d movies #=> displays columns
+
 require 'pry'
 require 'pg'
 
