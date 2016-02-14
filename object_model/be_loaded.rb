@@ -12,3 +12,16 @@ end
 
 counter #=> 1
 counter #=> 2
+
+class Counter
+  def initialize
+    @i = 0
+  end
+  def count
+    p @i += 1
+  end
+end
+
+c = Counter.new
+#c.count
+#c.count
